@@ -1,0 +1,98 @@
+## Benchmarking images/screenshot_web/*.png -- 1 runs
+
+## images/screenshot_web/imdb.com.png size: 1313x6441
+          decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:        37.1       331.6        228.25         25.51      2264    6.9%
+stbi:          32.2       434.5        262.95         19.47      3053    9.2%
+qoi:           13.3        17.8        637.36        475.17      2403    7.3%
+
+## images/screenshot_web/sublime.png size: 1008x9513
+          decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:        31.9       234.5        300.74         40.90      1579    4.2%
+stbi:          27.5       409.9        349.06         23.39      1858    5.0%
+qoi:           12.8        18.7        750.89        513.29      1604    4.3%
+
+## images/screenshot_web/duckduckgo.com.png size: 1313x2874
+          decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:        10.5        82.9        358.17         45.50       333    2.3%
+stbi:           9.7       154.9        387.06         24.36       436    3.0%
+qoi:            3.1         5.7       1208.85        661.25       370    2.5%
+
+## images/screenshot_web/phoboslab.org.png size: 1313x20667
+          decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       110.2       878.7        246.30         30.88      6199    5.8%
+stbi:          80.0      1105.1        339.32         24.55      7421    7.0%
+qoi:           48.6        62.4        558.89        434.57      8029    7.6%
+
+## images/screenshot_web/stripe.com.png size: 1313x6603
+          decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:        31.0       244.6        279.69         35.44      1054    3.1%
+stbi:          22.3       374.9        388.48         23.13      1428    4.2%
+qoi:           12.5        16.7        692.45        519.77      1404    4.1%
+
+## images/screenshot_web/apple.com.png size: 1313x4755
+          decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:        27.5       263.9        227.03         23.66      1941    8.0%
+stbi:          28.8       327.3        216.45         19.07      2575   10.6%
+qoi:            9.2        14.7        678.13        425.28      2103    8.6%
+
+## images/screenshot_web/creativecommons.org.png size: 1551x4354
+          decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:        53.8       605.7        125.55         11.15      4788   18.2%
+stbi:          41.5       523.7        162.82         12.89      6392   24.2%
+qoi:           18.3        24.4        368.56        276.24      4904   18.6%
+
+## images/screenshot_web/cnn.com.png size: 1313x5241
+          decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:        30.9       283.7        222.68         24.26      2246    8.4%
+stbi:          25.2       349.2        273.07         19.71      2729   10.2%
+qoi:           10.3        15.6        670.20        440.61      2300    8.6%
+
+## images/screenshot_web/microsoft.com.png size: 1313x3328
+          decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:        21.9       230.5        199.94         18.96      1518    8.9%
+stbi:          15.7       247.1        278.44         17.68      2030   11.9%
+qoi:            6.9        10.5        630.78        414.82      1597    9.4%
+
+## images/screenshot_web/news.ycombinator.com.png size: 1325x1450
+          decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:         6.1        45.7        316.98         42.05       289    3.9%
+stbi:           3.8        83.2        502.44         23.09       333    4.4%
+qoi:            1.9         3.5        990.52        554.22       295    3.9%
+
+## images/screenshot_web/nytimes.com.png size: 1313x5780
+          decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:        38.4       344.5        197.65         22.03      2672    9.0%
+stbi:          28.2       414.5        269.30         18.31      3377   11.4%
+qoi:           11.2        18.5        674.75        409.55      2700    9.1%
+
+## images/screenshot_web/reddit.com.png size: 1313x8008
+          decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:        50.9       461.8        206.52         22.77      2821    6.9%
+stbi:          36.0       572.7        292.25         18.36      3927    9.6%
+qoi:           17.9        23.9        586.22        439.20      2903    7.1%
+
+## images/screenshot_web/en.wikipedia.org.png size: 1313x2936
+          decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:        17.5       143.3        220.67         26.91      1342    8.9%
+stbi:          12.1       180.8        317.31         21.32      1497    9.9%
+qoi:            6.5        10.2        589.29        378.90      1463    9.7%
+
+## images/screenshot_web/amazon.com.png size: 1313x6097
+          decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:        54.8       547.8        146.18         14.61      4589   14.7%
+stbi:          45.2       533.8        177.04         15.00      6014   19.2%
+qoi:           17.1        26.3        468.71        304.42      5015   16.0%
+
+## Total for images/screenshot_web
+          decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:        37.3       335.7        217.80         24.21      2402    7.6%
+stbi:          29.2       408.0        278.66         19.92      3076    9.7%
+qoi:           13.6        19.2        599.66        422.90      2649    8.3%
+
+# Grand total for images/screenshot_web
+          decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:        37.3       335.7        217.80         24.21      2402    7.6%
+stbi:          29.2       408.0        278.66         19.92      3076    9.7%
+qoi:           13.6        19.2        599.66        422.90      2649    8.3%
+

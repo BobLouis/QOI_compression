@@ -1,0 +1,158 @@
+## Benchmarking images/photo_kodak/*.png -- 1 runs
+
+## images/photo_kodak/kodim22.png size: 768x512
+          decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:         7.4        75.2         53.32          5.23       687   59.6%
+stbi:           7.1        47.4         55.53          8.29       956   83.0%
+qoi:            1.7         2.7        232.73        143.39       739   64.2%
+
+## images/photo_kodak/kodim10.png size: 512x768
+          decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:         7.2        89.0         54.52          4.42       584   50.7%
+stbi:           8.2        48.9         48.10          8.05       830   72.1%
+qoi:            2.0         2.8        198.32        139.72       637   55.3%
+
+## images/photo_kodak/kodim14.png size: 768x512
+          decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:         6.4        69.3         61.92          5.68       725   62.9%
+stbi:           5.9        49.5         67.10          7.95       946   82.2%
+qoi:            1.7         2.5        226.24        159.45       722   62.7%
+
+## images/photo_kodak/kodim09.png size: 512x768
+          decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:         6.4        90.9         61.27          4.33       574   49.8%
+stbi:           6.6        46.8         59.35          8.40       823   71.5%
+qoi:            2.0         2.8        197.66        140.02       597   51.8%
+
+## images/photo_kodak/kodim16.png size: 768x512
+          decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:         5.4        83.4         72.81          4.72       567   49.3%
+stbi:           5.0        47.1         77.89          8.35       786   68.3%
+qoi:            2.0         2.6        192.32        151.11       558   48.5%
+
+## images/photo_kodak/kodim24.png size: 768x512
+          decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:         6.8        68.3         57.82          5.76       694   60.3%
+stbi:           7.3        47.3         53.69          8.31       886   77.0%
+qoi:            1.8         2.6        212.82        150.45       710   61.7%
+
+## images/photo_kodak/kodim07.png size: 768x512
+          decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:         7.3        82.0         54.17          4.80       560   48.7%
+stbi:           7.8        49.7         50.16          7.91       782   67.9%
+qoi:            2.1         2.9        187.21        137.67       598   51.9%
+
+## images/photo_kodak/kodim01.png size: 768x512
+          decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:         6.4        64.0         61.56          6.15       764   66.4%
+stbi:           5.7        47.3         68.55          8.31       948   82.4%
+qoi:            1.7         2.3        230.05        169.12       728   63.3%
+
+## images/photo_kodak/kodim08.png size: 768x512
+          decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:         7.7        61.7         50.75          6.37       773   67.1%
+stbi:           8.6        49.9         45.63          7.89       976   84.8%
+qoi:            1.7         2.4        225.47        163.52       846   73.5%
+
+## images/photo_kodak/kodim12.png size: 768x512
+          decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:         5.5        88.6         71.11          4.44       561   48.8%
+stbi:           4.7        49.7         83.97          7.92       797   69.2%
+qoi:            2.1         2.8        187.22        142.78       563   48.9%
+
+## images/photo_kodak/kodim11.png size: 768x512
+          decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:         5.7        68.5         68.48          5.74       627   54.5%
+stbi:           5.5        45.9         71.39          8.56       836   72.6%
+qoi:            1.8         2.4        217.03        162.89       640   55.6%
+
+## images/photo_kodak/kodim13.png size: 768x512
+          decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:         6.8        49.6         58.02          7.92       871   75.7%
+stbi:           6.2        46.3         63.03          8.49      1051   91.3%
+qoi:            1.7         2.1        235.67        186.51       824   71.6%
+
+## images/photo_kodak/kodim06.png size: 768x512
+          decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:         5.8        70.6         67.29          5.57       657   57.1%
+stbi:           5.2        44.9         76.22          8.77       855   74.2%
+qoi:            1.9         2.5        211.61        155.05       638   55.4%
+
+## images/photo_kodak/kodim04.png size: 512x768
+          decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:         6.4        82.0         61.24          4.79       625   54.3%
+stbi:           6.3        49.5         62.52          7.95       881   76.5%
+qoi:            1.8         2.7        213.08        143.16       700   60.8%
+
+## images/photo_kodak/kodim17.png size: 512x768
+          decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:         6.2        85.9         63.74          4.58       613   53.3%
+stbi:           5.0        50.5         78.69          7.78       849   73.7%
+qoi:            2.1         2.7        185.97        147.63       627   54.4%
+
+## images/photo_kodak/kodim21.png size: 768x512
+          decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:         5.9        85.4         66.47          4.60       667   57.9%
+stbi:           5.3        48.3         74.30          8.14       898   78.0%
+qoi:            1.8         2.5        218.89        158.09       638   55.4%
+
+## images/photo_kodak/kodim18.png size: 512x768
+          decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:         6.4        63.1         61.62          6.24       763   66.3%
+stbi:           6.4        49.4         61.02          7.96      1011   87.8%
+qoi:            1.6         2.3        244.09        167.48       793   68.9%
+
+## images/photo_kodak/kodim02.png size: 768x512
+          decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:         6.1        88.0         64.43          4.47       606   52.7%
+stbi:           6.1        49.3         64.79          7.97       861   74.8%
+qoi:            2.0         2.8        199.83        141.50       642   55.8%
+
+## images/photo_kodak/kodim19.png size: 512x768
+          decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:         6.8        88.9         57.91          4.42       658   57.2%
+stbi:           6.3        47.5         62.25          8.27       903   78.5%
+qoi:            1.9         2.7        203.46        146.30       693   60.2%
+
+## images/photo_kodak/kodim23.png size: 768x512
+          decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:         5.8        98.0         68.20          4.01       549   47.7%
+stbi:           5.6        47.5         70.28          8.27       804   69.9%
+qoi:            2.0         3.0        196.97        129.07       659   57.2%
+
+## images/photo_kodak/kodim03.png size: 768x512
+          decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:         5.2        83.2         75.49          4.73       536   46.6%
+stbi:           4.0        46.4         98.39          8.48       752   65.4%
+qoi:            2.1         2.8        183.23        142.34       546   47.5%
+
+## images/photo_kodak/kodim20.png size: 768x512
+          decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:         5.0        62.8         78.02          6.26       499   43.4%
+stbi:           3.9        38.1        102.05         10.31       692   60.1%
+qoi:            1.6         2.0        248.32        193.82       514   44.6%
+
+## images/photo_kodak/kodim15.png size: 768x512
+          decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:         6.7        75.5         58.33          5.21       603   52.4%
+stbi:           7.0        48.9         56.52          8.04       833   72.3%
+qoi:            2.0         2.8        195.40        139.43       680   59.1%
+
+## images/photo_kodak/kodim05.png size: 768x512
+          decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:         6.8        62.7         58.08          6.27       791   68.7%
+stbi:           6.3        47.9         62.69          8.21       989   85.9%
+qoi:            1.7         2.4        234.96        162.36       811   70.4%
+
+## Total for images/photo_kodak
+          decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:         6.3        76.5         62.03          5.14       648   56.3%
+stbi:           6.1        47.7         64.65          8.25       873   75.8%
+qoi:            1.9         2.6        209.88        151.63       671   58.3%
+
+# Grand total for images/photo_kodak
+          decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:         6.3        76.5         62.03          5.14       648   56.3%
+stbi:           6.1        47.7         64.65          8.25       873   75.8%
+qoi:            1.9         2.6        209.88        151.63       671   58.3%
+
